@@ -79,7 +79,7 @@ public class player {
      */
     public void setHealth(int health)
     {
-        this.health -= health;
+        this.health += health;
     }
 
     /**
@@ -100,5 +100,15 @@ public class player {
     public void setDefense(int defense)
     {
         this.defense += defense;
+    }
+
+    /**
+     * This method will be used to set the player's speed.
+     * 
+     * @param speed the speed the player will gain
+     */
+    public void setSpeed(int speed)
+    {
+        this.speed += speed;
     }
 }
