@@ -17,5 +17,12 @@ public class inventory {
                 inventoryItems[i][j] = "Empty";
             }
         }
+
+        for(int i = 0; i < SIZE; i++)
+        {
+            acessorySlots[i] = "Empty";
+            weaponSlots[i] = "Empty";
+            armorSlots[i] = "Empty";
+        }
     }
 }
