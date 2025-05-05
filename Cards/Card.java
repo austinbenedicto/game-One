@@ -2,16 +2,21 @@ package Cards;
 
 public abstract class Card 
 {
-    public String name;
-    public String description;
-    public int health;
-    public int attack;
+    private String name;
+    private String description;
 
-    public Card(String name, String description, int health, int attack) 
+    public Card(String name, String description) 
     {
         this.name = name;
         this.description = description;
-        this.health = health;
-        this.attack = attack;
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
     }
 }

@@ -3,9 +3,9 @@ import Cards.Card;
 
 public abstract class Spell extends Card
 {
-    public Spell(String name, String description, int health, int attack) 
+    public Spell(String name, String description) 
     {
-        super(name, description, health, attack);
+        super(name, description);
     
     }
 }
