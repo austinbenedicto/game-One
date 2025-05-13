@@ -1,5 +1,4 @@
-package Cards.Spells;
-import Cards.Card;
+package Cards;
 
 public abstract class Spell extends Card
 {

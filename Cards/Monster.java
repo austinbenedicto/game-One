@@ -1,5 +1,4 @@
-package Cards.Monsters;
-import Cards.Card;
+package Cards;
 
 public abstract class Monster extends Card
 {

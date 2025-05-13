@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Goblin",
+      "type": "Monster",
+      "cost": 1,
+      "attack": 2,
+      "health": 1,
+      "effectId": "none"
+    },
+    {
+      "name": "Fireball",
+      "type": "Spell",
+      "cost": 3,
+      "attack": 0,
+      "health": 0,
+      "effectId": "damage_all_enemies_3"
+    }
+  ]
