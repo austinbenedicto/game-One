@@ -8,9 +8,6 @@ public class Board
     private int rows;
     private int cols;
 
-    private relic[] redRelics = new relic[3];
-    private relic[] blueRelics = new relic[3];
-
     public Board(int rows, int cols) {
         this.rows = rows;
         this.cols = cols;

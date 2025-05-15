@@ -1,6 +1,11 @@
 package Evolvers.Techno;
 import Evolvers.Evolver;
 
+/**
+ * This is a type of Evolver that is based on technology for example Robot Monster.
+ * 
+ * The main characteristics of this Evolver type is that it can summon more tokens onto the board
+ */
 public abstract class Techno extends Evolver
 {
     public Techno(String name, int maxLives, int strength, int defense)
