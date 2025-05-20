@@ -7,9 +7,9 @@ public class Deck
 {
     private Spell[] spellDeck;
     private Monster[] monsterDeck;
-    private int deckType;
+    private String deckType;
 
-    public Deck(int deckType)
+    public Deck(String deckType)
     {
         this.deckType = deckType;
 
@@ -17,16 +17,16 @@ public class Deck
         monsterDeck = new Monster[10];
 
         switch (deckType) {
-            case 1:
+            case "techno":
                 techno();
                 break;
-            case 2:
+            case "magic":
                 magic();
                 break;
-            case 3:
+            case "nature":
                 nature();
                 break;
-            case 4:
+            case "cosmic":
                 cosmic();
                 break;
             default:

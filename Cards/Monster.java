@@ -2,8 +2,23 @@ package Cards;
 
 public abstract class Monster extends Card
 {
-    public Monster(String name, String description) 
+    private int power;
+    private String effectId;
+
+    public Monster(String name, int power, String effectId) 
     {
-        super(name, description);
+        super(name);
+        this.power = power;
+        this.effectId = effectId;
+    }
+
+    public int getPower() 
+    {
+        return power;
+    }
+
+    public String getEffectId() 
+    {
+        return effectId;
     }
 }

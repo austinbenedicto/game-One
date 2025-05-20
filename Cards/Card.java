@@ -3,20 +3,13 @@ package Cards;
 public abstract class Card 
 {
     private String name;
-    private String description;
 
-    public Card(String name, String description) 
+    public Card(String name) 
     {
         this.name = name;
-        this.description = description;
-
     }
 
     public String getName() {
         return name;
-    }
-
-    public String getDescription() {
-        return description;
     }
 }

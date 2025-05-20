@@ -3,10 +3,9 @@ package Cards;
 public class CardData
 {
     private String name;
-    private String type; // "Monster" or "Spell"
+    private String type;
     private int power;
-    private String effectId; // Identifier for the card's effect
-    // Constructors, getters, and setters
+    private String effectId;
 
     public CardData(String name, String type, int power, String effectId)
     {
@@ -24,5 +23,15 @@ public class CardData
     public String getName()
     {
         return name;
+    }
+
+    public String getType()
+    {
+        return type;
+    }
+
+    public String getEffectId()
+    {
+        return effectId;
     }
 }

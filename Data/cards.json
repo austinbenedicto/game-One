@@ -8,7 +8,31 @@
     {
       "name": "Fireball",
       "type": "Spell",
-      "power": 3,
+      "power": 1,
+      "effectId": "damage_all_enemies_3"
+    },
+    {
+      "name": "Fireball",
+      "type": "Spell",
+      "power": 1,
+      "effectId": "damage_all_enemies_3"
+    },
+    {
+      "name": "Fireball",
+      "type": "Spell",
+      "power": 1,
+      "effectId": "damage_all_enemies_3"
+    },
+    {
+      "name": "Fireball",
+      "type": "Spell",
+      "power": 1,
+      "effectId": "damage_all_enemies_3"
+    },
+    {
+      "name": "Fireball",
+      "type": "Spell",
+      "power": 1,
       "effectId": "damage_all_enemies_3"
     }
   ]
