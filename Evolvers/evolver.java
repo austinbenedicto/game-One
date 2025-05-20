@@ -1,13 +1,15 @@
 package Evolvers;
 
-public abstract class Evolver {
+public abstract class Evolver
+{
     protected String name;
     protected int maxLives;
     protected int currentLives;
     protected int strength;
     protected int defense;
 
-    public Evolver(String name, int maxLives, int strength, int defense) {
+    public Evolver(String name, int maxLives, int strength, int defense)
+    {
         this.name = name;
         this.maxLives = maxLives;
         this.currentLives = maxLives;

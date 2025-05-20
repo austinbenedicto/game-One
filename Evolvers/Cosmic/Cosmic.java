@@ -1,6 +1,11 @@
 package Evolvers.Cosmic;
 import Evolvers.Evolver;
 
+/**
+ * This is a type of Evolver that is based on cosmic entities for example Alien Monster.
+ * 
+ * The main characteristics of this Evolver type is that it can self desturct to 
+ */
 public abstract class Cosmic extends Evolver
 {
     public Cosmic(String name, int maxLives, int strength, int defense)
