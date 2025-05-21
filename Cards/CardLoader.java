@@ -25,11 +25,10 @@ public class CardLoader
                 if (type.equalsIgnoreCase("monster"))
                 {
                     String name = obj.get("name").getAsString();
-                    int health = obj.get("health").getAsInt();
-                    int attack = obj.get("attack").getAsInt();
-                    List<String> abilities = gson.fromJson(obj.get("abilities"), new TypeToken<List<String>>(){}.getType());
+                    int power = obj.get("power").getAsInt();
+                    String effect = obj.get("effect").getAsString();
 
-                    cards.add(new Monster(name, health, attack, abilities));
+                    cards.add(new Monster(name, power, effect));
                 } 
                 else if (type.equalsIgnoreCase("spell"))
                 {
