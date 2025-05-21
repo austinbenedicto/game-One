@@ -1,6 +1,6 @@
 package Cards;
 
-public abstract class Spell extends Card
+public class Spell extends Card
 {
     private int power;
     private String effectId;

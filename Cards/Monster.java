@@ -1,6 +1,6 @@
 package Cards;
 
-public abstract class Monster extends Card
+public class Monster extends Card
 {
     private int power;
     private String effectId;
