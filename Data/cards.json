@@ -61,7 +61,7 @@
     {
       "name": "Fire Dragon",
       "type": "Monster",
-      "affiliation": "magic",
+      "affiliation": "Natural",
       "power": 2,
       "effectId": "none"
     },
