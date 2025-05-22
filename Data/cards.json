@@ -26,15 +26,78 @@
       "effectId": "none"
     },
     {
-      "name": "Fireball",
-      "type": "Spell",
-      "power": 1,
+      "name": "Yeti",
+      "type": "Monster",
+      "power": 2,
       "effectId": "damage_all_enemies_3"
     },
     {
-      "name": "Fireball",
-      "type": "Spell",
+      "name": "Grass Warrior",
+      "type": "Monster",
+      "affiliation": "Natural",
       "power": 1,
+      "effectId": "none"
+    },
+    {
+      "name": "Dark Knight",
+      "type": "Monster",
+      "affiliation": "magic",
+      "power": 1,
+      "effectId": "none"
+    },
+    {
+      "name": "Black Hole",
+      "type": "Spell",
+      "power": 2,
       "effectId": "damage_all_enemies_3"
+    },
+    {
+      "name": "Horus",
+      "type": "Monster",
+      "affiliation": "techno",
+      "power": 3,
+      "effectId": "none"
+    },
+    {
+      "name": "Fire Dragon",
+      "type": "Monster",
+      "affiliation": "magic",
+      "power": 2,
+      "effectId": "none"
+    },
+    {
+      "name": "Battle Cruizer",
+      "type": "Monster",
+      "affiliation": "techno",
+      "power": 3,
+      "effectId": "none"
+    },
+    {
+      "name": "Witch",
+      "type": "Monster",
+      "affiliation": "magic",
+      "power": 1,
+      "effectId": "none"
+    },
+    {
+      "name": "Fire Elemental",
+      "type": "Monster",
+      "affiliation": "Natural",
+      "power": 1,
+      "effectId": "none"
+    },
+    {
+      "name": "Ice Elemental",
+      "type": "Monster",
+      "affiliation": "Natural",
+      "power": 1,
+      "effectId": "none"
+    },
+    {
+      "name": "Earth Elemental",
+      "type": "Monster",
+      "affiliation": "Natural",
+      "power": 1,
+      "effectId": "none"
     }
   ]
