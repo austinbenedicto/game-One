@@ -4,13 +4,15 @@ public class CardData
 {
     private String name;
     private String type;
+    private String affiliation;
     private int power;
     private String effectId;
 
-    public CardData(String name, String type, int power, String effectId)
+    public CardData(String name, String type, String affiliation, int power, String effectId)
     {
         this.name = name;
         this.type = type;
+        this.affiliation = affiliation;
         this.power = power;
         this.effectId = effectId;
     }

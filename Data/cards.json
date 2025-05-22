@@ -2,6 +2,7 @@
     {
       "name": "Goblin",
       "type": "Monster",
+      "affiliation": "magic",
       "power": 1,
       "effectId": "none"
     },
@@ -12,16 +13,17 @@
       "effectId": "damage_all_enemies_3"
     },
     {
-      "name": "Fireball",
+      "name": "Ice Spike",
       "type": "Spell",
       "power": 1,
-      "effectId": "damage_all_enemies_3"
+      "effectId": "none"
     },
     {
-      "name": "Fireball",
-      "type": "Spell",
+      "name": "Techno Pig",
+      "type": "Monster",
+      "affiliation": "techno",
       "power": 1,
-      "effectId": "damage_all_enemies_3"
+      "effectId": "none"
     },
     {
       "name": "Fireball",

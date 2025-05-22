@@ -25,6 +25,7 @@ public class CardLoader
                 if (type.equalsIgnoreCase("monster"))
                 {
                     String name = obj.get("name").getAsString();
+                    String affiliation = obj.get("affiliation").getAsString();
                     int power = obj.get("power").getAsInt();
                     String effect = obj.get("effect").getAsString();
 
@@ -33,10 +34,10 @@ public class CardLoader
                 else if (type.equalsIgnoreCase("spell"))
                 {
                     String name = obj.get("name").getAsString();
-                    int manaCost = obj.get("manaCost").getAsInt();
+                    int power = obj.get("power").getAsInt();
                     String effect = obj.get("effect").getAsString();
 
-                    cards.add(new Spell(name, manaCost, effect));
+                    cards.add(new Spell(name, power, effect));
                 }
             }
 
