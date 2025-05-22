@@ -11,7 +11,7 @@ public class Player
     {
         this.name = name;
         this.choiceEvolver = choiceEvolver;
-        power = 3;
+        power = 5;
 
         deck = new Deck(choiceEvolver);
     }
