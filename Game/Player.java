@@ -6,6 +6,7 @@ public class Player
     private String choiceEvolver;
     private Deck deck;
     private int power;
+    public static final int MAX_POWER = 10;
     
     public Player(String name, String choiceEvolver)
     {

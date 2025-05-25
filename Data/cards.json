@@ -99,5 +99,23 @@
       "affiliation": "Natural",
       "power": 1,
       "effectId": "none"
+    },
+    {
+      "name": "Power Pot",
+      "type": "Spell",
+      "power": 1,
+      "effectId": "none"
+    },
+    {
+      "name": "Medusa's Kiss",
+      "type": "Spell",
+      "power": 1,
+      "effectId": "none"
+    },
+    {
+      "name": "Syrencs Call",
+      "type": "Spell",
+      "power": 1,
+      "effectId": "none"
     }
   ]

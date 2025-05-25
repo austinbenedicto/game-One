@@ -7,7 +7,8 @@ public class Board
     private int rows;
     private int cols;
 
-    public Board() {
+    public Board()
+    {
         rows = 4;
         cols = 4;
         board = new Card[rows][cols];
@@ -24,5 +25,10 @@ public class Board
     public Card getCard(int row, int col)
     {
         return board[row][col];
+    }
+
+    public Card[][] getBoard()
+    {
+        return board;
     }
 }
