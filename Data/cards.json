@@ -197,5 +197,68 @@
       "affiliation": "techno",
       "power": 2,
       "effectId": "none"
+    },
+    {
+      "name": "Golem",
+      "type": "Monster",
+      "affiliation": "Natural",
+      "power": 3,
+      "effectId": "none"
+    },
+    {
+      "name": "Phoenix",
+      "type": "Monster",
+      "affiliation": "magic",
+      "power": 4,
+      "effectId": "none"
+    },
+    {
+      "name": "Titan",
+      "type": "Monster",
+      "affiliation": "techno",
+      "power": 5,
+      "effectId": "none"
+    },
+    {
+      "name": "Stardust Dragon",
+      "type": "Monster",
+      "affiliation": "magic",
+      "power": 6,
+      "effectId": "none"
+    },
+    {
+      "name": "Ancient Treant",
+      "type": "Monster",
+      "affiliation": "Natural",
+      "power": 4,
+      "effectId": "none"
+    },
+    {
+      "name": "Storm Giant",
+      "type": "Monster",
+      "affiliation": "techno",
+      "power": 6,
+      "effectId": "none"
+    },
+    {
+      "name": "Dark Sorcerer",
+      "type": "Monster",
+      "affiliation": "magic",
+      "power": 5,
+      "effectId": "none"
+    },
+    {
+      "name": "Crystal Dragon",
+      "type": "Monster",
+      "affiliation": "Natural",
+      "power": 7,
+      "effectId": "none"
+    },
+    {
+      "name": "Dadelus Carrier",
+      "type": "Monster",
+      "affiliation": "techno",
+      "power": 8,
+      "effectId": "none"
     }
   ]
