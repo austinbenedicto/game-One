@@ -1,4 +1,4 @@
-package Evolvers;
+package Evolvers.EvolverType;
 
 /**
  * This is a type of Evolver that is based on cosmic entities for example Alien Monster.

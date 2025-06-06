@@ -1,4 +1,4 @@
-package Evolvers;
+package Evolvers.EvolverType;
 
 /**
  * This is a type of Evolver that is based on things found in nature for example Tree Monster.
