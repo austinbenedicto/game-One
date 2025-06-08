@@ -1,5 +1,8 @@
 package Game;
 import Cards.Card;
+import Cards.Monster;
+
+import java.util.ArrayList;
 
 public class Board
 {
@@ -30,5 +33,22 @@ public class Board
     public Card[][] getBoard()
     {
         return board;
+    }
+
+    public ArrayList<int[]> getMonsterCardPositions()
+    {
+        ArrayList<int[]> positions = new ArrayList<>();
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++) 
+            {
+                Card card = board[i][j];
+                if (card != null && card instanceof Monster)
+                {
+                    positions.add(new int[]{i, j});
+                }
+            }
+        }
+        return positions;
     }
 }
