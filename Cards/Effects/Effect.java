@@ -1,8 +1,8 @@
 package Cards.Effects;
-//import Game.GameState;
 import Cards.Card;
+import Game.Board;
 
 public interface Effect
 {
-    void apply(/*GameState gameState,*/ Card owner);
+    void apply(Board board, Card owner);
 }

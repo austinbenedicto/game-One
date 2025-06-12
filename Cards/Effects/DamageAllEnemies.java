@@ -1,5 +1,7 @@
 package Cards.Effects;
 import Cards.Card;
+import Cards.Monster;
+import Game.Board;
 
 public class DamageAllEnemies implements Effect
 {
@@ -11,13 +13,20 @@ public class DamageAllEnemies implements Effect
     }
 
     @Override
-    public void apply(/*GameState gameState,*/ Card owner)
+    public void apply(Board board, Card owner)
     {
-        // Assuming we have a method to get all enemies and apply damage
-        // for (Enemy enemy : gameState.getEnemies()) {
-        //     enemy.takeDamage(damage);
-        // }
-        System.out.println(owner.getName() + " deals " + damage + " damage to all enemies.");
+       for(int i = 0; i < board.getMonsterCardPositions().size(); i++)
+         {
+            int[] position = board.getMonsterCardPositions().get(i);
+              
+            Card card = board.getCard(position[0], position[1]);
+
+            if(card instanceof Monster && card != owner)
+            {
+                Monster monster = (Monster) card;
+                monster.setAlive(owner.getPower());
+            }
+         }
     }
     
 }

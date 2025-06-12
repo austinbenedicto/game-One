@@ -2,23 +2,33 @@ package Cards;
 
 public class Monster extends Card
 {
-    private int power;
-    private String effectId;
+    private boolean isAlive;
 
     public Monster(String name, int power, String effectId) 
     {
-        super(name);
-        this.power = power;
-        this.effectId = effectId;
+        super(name, power, effectId);
+        isAlive = true;
     }
 
-    public int getPower() 
+    public boolean isAlive()
     {
-        return power;
+        return isAlive;
     }
 
-    public String getEffectId() 
+    public void setAlive(boolean alive)
     {
-        return effectId;
+        isAlive = alive;
+    }
+
+    public void setAlive(int enemyPower)
+    {
+        if(getPower() > enemyPower)
+        {
+            isAlive = true;
+        }
+        else
+        {
+            isAlive = false;
+        }
     }
 }
