@@ -7,5 +7,8 @@ package Evolvers.EvolverType;
  */
 public interface Cosmic
 {
-    
+    public static final String TYPE = "cosmic";
+
+    void summonCosmicToken();
+    void cosmicPowerBoost();
 }

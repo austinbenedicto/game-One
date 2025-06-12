@@ -7,5 +7,11 @@ package Evolvers.EvolverType;
  */
 public interface Natural 
 {
-    
+    public static final String TYPE = "natural";
+
+    void photosynthesis();
+
+    void naturalHealing();
+    void naturalPowerBoost();
 }
+

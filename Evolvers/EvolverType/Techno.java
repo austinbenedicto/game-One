@@ -7,5 +7,9 @@ package Evolvers.EvolverType;
  */
 public interface Techno
 {
-    
+    public static final String TYPE = "techno";
+
+    void energyBoost();
+    void recharge();
+    void technoPowerBoost();
 }
