@@ -31,4 +31,9 @@ public class Monster extends Card
             isAlive = false;
         }
     }
+
+    public void setPower(int powerIncrease)
+    {
+        power = getPower() + powerIncrease;
+    }
 }

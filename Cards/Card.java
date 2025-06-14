@@ -24,4 +24,9 @@ public abstract class Card
     public String getEffectId() {
         return effectId;
     }
+
+    public void setPower(int powerIncrease)
+    {
+        power = getPower() + powerIncrease;
+    }
 }

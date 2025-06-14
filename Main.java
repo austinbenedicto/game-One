@@ -1,3 +1,5 @@
+import Game.Player;
+
 public class Main
 {
     public static void main(String[] args)
@@ -10,5 +12,7 @@ public class Main
 
         // Start the game loop or any other necessary processes
         // This is where you would typically handle game logic, events, etc.
+
+        Player player1 = new Player("Player 1", "Evolver1");
     }
 }

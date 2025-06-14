@@ -222,7 +222,7 @@
     {
       "name": "Stardust Dragon",
       "type": "Monster",
-      "affiliation": "magic",
+      "affiliation": "cosmic",
       "power": 6,
       "effectId": "none"
     },
@@ -259,6 +259,41 @@
       "type": "Monster",
       "affiliation": "techno",
       "power": 8,
+      "effectId": "none"
+    },
+    {
+      "name": "Celestial Phoenix",
+      "type": "Monster",
+      "affiliation": "cosmic",
+      "power": 8,
+      "effectId": "none"
+    },
+    {
+      "name": "Elder Dragon",
+      "type": "Monster",
+      "affiliation": "magic",
+      "power": 7,
+      "effectId": "none"
+    },
+    {
+      "name": "Cosmic Entity",
+      "type": "Monster",
+      "affiliation": "cosmic",
+      "power": 9,
+      "effectId": "none"
+    },
+    {
+      "name": "Galactic Overlord",
+      "type": "Monster",
+      "affiliation": "cosmic",
+      "power": 10,
+      "effectId": "none"
+    },
+    {
+      "name": "Void Reaver",
+      "type": "Monster",
+      "affiliation": "cosmic",
+      "power": 4,
       "effectId": "none"
     }
   ]

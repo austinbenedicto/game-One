@@ -8,28 +8,34 @@ import java.awt.*;
 public class BoardGUI extends JFrame {
     private Board board;
     private JButton[][] cardButtons;
-    private JButton[] topEvolvers;
-    private JButton[] bottomEvolvers;
+    private JButton[] evolverSlots;
 
     public BoardGUI(Board board) {
         this.board = board;
         this.cardButtons = new JButton[4][4];
-        this.topEvolvers = new JButton[2];
-        this.bottomEvolvers = new JButton[2];
+        this.evolverSlots = new JButton[2];
 
         setTitle("Card Board");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(new BorderLayout());
 
-        // Top evolver panel
-        JPanel topPanel = new JPanel(new GridLayout(1, 2, 10, 10));
-        for (int i = 0; i < 2; i++) {
-            topEvolvers[i] = new JButton("Evolver");
-            topPanel.add(topEvolvers[i]);
-        }
-        add(topPanel, BorderLayout.NORTH);
+        // Main panel with BorderLayout
+        JPanel mainPanel = new JPanel(new BorderLayout(10, 10));
 
-        // Center board panel
+        // Left evolver slot
+        evolverSlots[0] = new JButton("Evolver 1");
+        evolverSlots[0].setPreferredSize(new Dimension(80, 120));
+        JPanel leftPanel = new JPanel(new GridBagLayout());
+        leftPanel.add(evolverSlots[0]);
+        mainPanel.add(leftPanel, BorderLayout.WEST);
+
+        // Right evolver slot
+        evolverSlots[1] = new JButton("Evolver 2");
+        evolverSlots[1].setPreferredSize(new Dimension(80, 120));
+        JPanel rightPanel = new JPanel(new GridBagLayout());
+        rightPanel.add(evolverSlots[1]);
+        mainPanel.add(rightPanel, BorderLayout.EAST);
+
+        // Center board panel (4x4)
         JPanel centerPanel = new JPanel(new GridLayout(4, 4, 5, 5));
         for (int row = 0; row < 4; row++) {
             for (int col = 0; col < 4; col++) {
@@ -39,15 +45,9 @@ public class BoardGUI extends JFrame {
                 centerPanel.add(btn);
             }
         }
-        add(centerPanel, BorderLayout.CENTER);
+        mainPanel.add(centerPanel, BorderLayout.CENTER);
 
-        // Bottom evolver panel
-        JPanel bottomPanel = new JPanel(new GridLayout(1, 2, 10, 10));
-        for (int i = 0; i < 2; i++) {
-            bottomEvolvers[i] = new JButton("Evolver");
-            bottomPanel.add(bottomEvolvers[i]);
-        }
-        add(bottomPanel, BorderLayout.SOUTH);
+        add(mainPanel);
 
         pack();
         setLocationRelativeTo(null);
@@ -68,5 +68,6 @@ public class BoardGUI extends JFrame {
                 }
             }
         }
+        // Optionally update evolver slots here if needed
     }
 }
